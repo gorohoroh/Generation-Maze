@@ -45,7 +45,7 @@ namespace WpfApp1
             {
                 for(int j = 0; j < n; j++)
                 {
-                    if (random.Next(0, 2) == 0) bv[i, j] = false;
+                    if (random.Next(0, 1) == 0) bv[i, j] = false;
                     else bv[i, j] = true;
                 }
             }
